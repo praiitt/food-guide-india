@@ -29,8 +29,17 @@ npm start
 
 Legacy HTML wireframes are preserved in `/legacy`.
 
-## Vibe deployment
+## Git & Vibe deployment
 
-Project ID: `e70594a3-c2b4-47f7-87dc-398da49bae3c`  
-Dashboard: https://absolute-dimension.com/projects/e70594a3-c2b4-47f7-87dc-398da49bae3c  
-Dev URL (after deploy): https://food-guide-india-dev.absolute-dimension.com
+**GitHub:** https://github.com/praiitt/food-guide-india  
+**Vibe project:** `e70594a3-c2b4-47f7-87dc-398da49bae3c`  
+**Dashboard:** https://absolute-dimension.com/projects/e70594a3-c2b4-47f7-87dc-398da49bae3c  
+**Dev URL:** https://food-guide-india-dev.absolute-dimension.com
+
+### Push updates
+
+```bash
+git add -A && git commit -m "your message" && git push
+```
+
+After pushing, trigger a Vibe sync + deploy from the dashboard or ask the agent to redeploy.
